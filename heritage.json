@@ -1,0 +1,12 @@
+{
+  "tree": "tree/tree.ged",
+  "roots": [
+    {
+      "id": "I500001",
+      "label": "Alberto Salgado Harres"
+    }
+  ],
+  "research_roots": ["I500001"],
+  "min_confidence": "possible",
+  "living_years": 110
+}

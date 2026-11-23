@@ -1,0 +1,426 @@
+{
+ "I11": {
+  "country": "PT",
+  "why": "O marido e o filho Luís Pinheiro de Ávila nasceram na Praia, Terceira (Açores)."
+ },
+ "I13": {
+  "country": "PT",
+  "why": "O marido António Fernandes e o filho Luiz Nunes de Ávila nasceram na Praia, Terceira (Açores)."
+ },
+ "I14": {
+  "country": "PT",
+  "why": "Pai de António Fernandes, nascido na Praia da Vitória, Ilha Terceira (Açores), c. 1535."
+ },
+ "I15": {
+  "country": "PT",
+  "why": "Mãe de Brázia Nunes de Antona, de família da Ilha Terceira (Açores), segundo Mendes e Forjaz."
+ },
+ "I23": {
+  "country": "PT",
+  "why": "Mulher de António Carneiro da Fontoura (n. Jou, Murça) e mãe de João Carneiro da Fontoura, n. em Chaves; família fidalga transmontana."
+ },
+ "I28": {
+  "country": "PT",
+  "why": "Pai de Luís José da Silva Pereira, natural de Vila Franca de Xira; família de Lisboa, nada aponta para fora de Portugal."
+ },
+ "I29": {
+  "country": "PT",
+  "why": "Mãe de Luís José da Silva Pereira, natural de Vila Franca de Xira; família de Lisboa, nada aponta para fora de Portugal."
+ },
+ "I30": {
+  "country": "PT",
+  "why": "Capitão-mor com oratório em Alhandra, onde nasceu e casou a filha (1764); família de Lisboa."
+ },
+ "I500001": {
+  "country": "BR",
+  "why": "Nascido em 1994, filho de pai e mãe brasileiros."
+ },
+ "I500011": {
+  "country": "BR",
+  "why": "Nascido c. 1826, quando o pai (coronel em Porto Alegre) já vivia no RS havia 25 anos; mãe de Rio Pardo e irmãos nascidos no RS."
+ },
+ "I500018": {
+  "country": "PT",
+  "why": "A família Doux vivia em Lisboa (irmão Emílio nascido lá em 1841) antes de passar ao Rio c. 1851; Alfredo nasceu nos anos 1840."
+ },
+ "I500028": {
+  "country": "BR",
+  "why": "Pais nascidos no Rio de Janeiro e em Niterói, irmã nascida no Rio; família brasileira do século XX."
+ },
+ "I500029": {
+  "country": "BR",
+  "why": "Maria Vitória de Almeida casou em Taquari (RS) em 1931 com João Carlos Harres, nascido em Taquari; família brasileira do século XX."
+ },
+ "I500047": {
+  "country": "BR",
+  "why": "Marido nascido em Rio Pardo (RS) e filha nascida no Brasil em 1873; família luso-brasileira do Rio Grande do Sul."
+ },
+ "I500060": {
+  "country": "FR",
+  "why": "Pais com nomes franceses (Nicolas Doux, Catherine Agnès Magny); família francesa que viveu em Lisboa e no Rio."
+ },
+ "I500061": {
+  "country": null,
+  "why": "Segunda mulher de Alfredo Doux, de família francesa entre Lisboa e o Rio; sem lugar algum registado."
+ },
+ "I500065": {
+  "country": null,
+  "why": "Nomes franceses, mas nenhuma fonte diz onde nasceu; o filho viveu em Lisboa e no Rio."
+ },
+ "I500070": {
+  "country": "BR",
+  "why": "Pais e irmão nascidos no Brasil (Porto Alegre e Rio de Janeiro); pessoa viva."
+ },
+ "I500074": {
+  "country": null,
+  "why": "Morto em Porto Alegre em 1810 e nascido antes de 1790; pode ter vindo de Portugal, e nenhuma fonte diz onde nasceu."
+ },
+ "I500076": {
+  "country": null,
+  "why": "Perfil sem nome criado pelo MyHeritage (provável duplicata de Celestine Doux); sem dados próprios."
+ },
+ "I500079": {
+  "country": "BR",
+  "why": "Mãe nascida no Rio de Janeiro e irmãs nascidas no Rio em 1893, 1897 e 1898, antes e depois dela."
+ },
+ "I500086": {
+  "country": "PT",
+  "why": "Filho nascido em 1775 no Reguengo do Gradil (Mafra, Lisboa); nada aponta para fora de Portugal."
+ },
+ "I500087": {
+  "country": "PT",
+  "why": "Filho nascido em 1775 no Reguengo do Gradil (Mafra, Lisboa); nada aponta para fora de Portugal."
+ },
+ "I500098": {
+  "country": null,
+  "why": "Só se sabe que o filho morreu em Porto Alegre em 1810; nenhum local de origem."
+ },
+ "I500099": {
+  "country": null,
+  "why": "Só se sabe que o filho morreu em Porto Alegre em 1810; nenhum local de origem."
+ },
+ "I500103": {
+  "country": "BR",
+  "why": "Pais e irmãos todos nascidos no Rio de Janeiro."
+ },
+ "I500108": {
+  "country": null,
+  "why": "Pai nascido em São Petersburgo, pais casados em Paris em 1924, um irmão nascido no Rio: Brasil ou França."
+ },
+ "I500109": {
+  "country": null,
+  "why": "Pai nascido em São Petersburgo, pais casados em Paris em 1924, um irmão nascido no Rio: Brasil ou França."
+ },
+ "I500110": {
+  "country": null,
+  "why": "Pai nascido em São Petersburgo, pais casados em Paris em 1924, um irmão nascido no Rio: Brasil ou França."
+ },
+ "I500116": {
+  "country": "PT",
+  "why": "Nome português; o primeiro filho conhecido nasceu em Lisboa em 1841, antes de a família passar ao Rio."
+ },
+ "I500122": {
+  "country": "FR",
+  "why": "Basco de Hasparren: o filho Bernardo nasceu lá em 1764 e a árvore dá a morte dele em Hasparren."
+ },
+ "I500123": {
+  "country": "FR",
+  "why": "Mãe de Bernardo Artayeta, nascido em Hasparren (País Basco francês) em 1764."
+ },
+ "I500125": {
+  "country": "AR",
+  "why": "Mãe e irmãos Leandro e Mariano nascidos em Buenos Aires, onde o pai francês se estabeleceu."
+ },
+ "I500127": {
+  "country": null,
+  "why": "Filha nascida em Buenos Aires (colonial); além disso a filiação é duvidosa (outra fonte dá Pedro Centurión)."
+ },
+ "I500128": {
+  "country": null,
+  "why": "Sem fontes; filiação de María Estefanía duvidosa (outra fonte dá Manuela Martínez como mãe)."
+ },
+ "I500133": {
+  "country": "BR",
+  "why": "Casal luso-brasileiro de meados do séc. XIX; filho nascido em Santa Catarina c. 1869."
+ },
+ "I500134": {
+  "country": "BR",
+  "why": "Casal luso-brasileiro de meados do séc. XIX; filho nascido em Santa Catarina c. 1869."
+ },
+ "I500141": {
+  "country": "PT",
+  "why": "Filho nascido em 1734 na freguesia dos Anjos, em Lisboa; nada aponta para fora de Portugal."
+ },
+ "I500142": {
+  "country": "PT",
+  "why": "Filho nascido em 1734 na freguesia dos Anjos, em Lisboa; nada aponta para fora de Portugal."
+ },
+ "I500144": {
+  "country": null,
+  "why": "Filha nascida em Magé (RJ) em 1760; antes de 1800 isso não basta, e a data de nascimento dele (1784) está errada."
+ },
+ "I500145": {
+  "country": null,
+  "why": "Filha nascida em Magé (RJ) em 1760; antes de 1800 isso não basta para presumir o Brasil."
+ },
+ "I500169": {
+  "country": null,
+  "why": "Segunda mulher de um açoriano da Terceira em Santa Catarina; filhos nascidos ali em 1778-82, mas ela pode ser açoriana ou já nascida no Brasil."
+ },
+ "I500175": {
+  "country": "BR",
+  "why": "Pais brasileiros; pessoa viva."
+ },
+ "I500178": {
+  "country": "PT",
+  "why": "Família fidalga de Vila Real (Fidalgos e Morgados de Vila Real); mulher de Guiães e filha de Vila Real."
+ },
+ "I500180": {
+  "country": "PT",
+  "why": "Família fidalga de Chaves (Trás-os-Montes); filha casada com o morgado Carneiro da Fontoura em Chaves."
+ },
+ "I500181": {
+  "country": "PT",
+  "why": "Família Veloso/Araújo de Chaves (Felgueiras Gaio, tít. Ferreiras); filha casada em Chaves."
+ },
+ "I500184": {
+  "country": "PT",
+  "why": "Casou na Vila da Praia, Terceira, onde nasceram a mulher e os filhos (1624)."
+ },
+ "I500190": {
+  "country": "PT",
+  "why": "Família Carneiro da Fontoura de Chaves; filho nascido em Chaves c. 1600."
+ },
+ "I500191": {
+  "country": "PT",
+  "why": "Mulher de Francisco Carneiro da Fontoura, de Chaves; filho nascido em Chaves c. 1600."
+ },
+ "I500192": {
+  "country": "PT",
+  "why": "Fidalgo da Casa de Bragança, morador e sepultado em Chaves; pai já morador em Chaves (Gaio) e filhos portugueses."
+ },
+ "I500193": {
+  "country": "PT",
+  "why": "Filha de Martim Carneiro, morador em Chaves, e de Ana da Fontoura; casou e viveu em Chaves."
+ },
+ "I500208": {
+  "country": "PT",
+  "why": "O filho João Ferreira nasceu em Ribeira Seca, São Jorge (Açores), c. 1593."
+ },
+ "I500209": {
+  "country": "PT",
+  "why": "O filho João Ferreira nasceu em Ribeira Seca, São Jorge (Açores), c. 1593."
+ },
+ "I500210": {
+  "country": "PT",
+  "why": "Casou em 1586 na Vila da Praia, Terceira, onde batizou os filhos."
+ },
+ "I500211": {
+  "country": "PT",
+  "why": "Casou em 1586 e morreu em 1616 na Vila da Praia, Terceira, onde batizou os filhos."
+ },
+ "I500212": {
+  "country": "PT",
+  "why": "O filho Manoel Fernandes casou em 1586 na Vila da Praia, Terceira; família da ilha."
+ },
+ "I500213": {
+  "country": "PT",
+  "why": "Morta antes de 1586; o filho casou na Vila da Praia, Terceira; família da ilha."
+ },
+ "I500214": {
+  "country": "PT",
+  "why": "A filha Maria Luís casou (1586) e morreu (1616) na Vila da Praia, Terceira."
+ },
+ "I500215": {
+  "country": "PT",
+  "why": "Mãe de Maria Luís, falecida na Praia, Ilha Terceira, em 1616; família açoriana do século XVI."
+ },
+ "I500220": {
+  "country": "PT",
+  "why": "Mulher do capitão-mor Diogo José Palmeiro; a filha nasceu em Alhandra (Vila Franca de Xira)."
+ },
+ "I500246": {
+  "country": "PT",
+  "why": "Família Taveira de Vila Real: pai nascido em Vila Real, irmã Mécia nascida em Vila Real, filhos em Trás-os-Montes."
+ },
+ "I500247": {
+  "country": "PT",
+  "why": "Família fidalga de Trás-os-Montes (Magalhães/Fontoura de Chaves); casou em Vila Real e teve filhos lá."
+ },
+ "I500249": {
+  "country": "PT",
+  "why": "O pai, Nicolau Coronel, já vivia em Portugal antes de 1499; ela casou e teve filhos em Vila Real."
+ },
+ "I500250": {
+  "country": "PT",
+  "why": "Casou com Antónia da Fontoura, de Chaves; a família viveu em Trás-os-Montes."
+ },
+ "I500251": {
+  "country": "PT",
+  "why": "Filha de João de Negreiros e Genebra da Fontoura, de Chaves; família de Trás-os-Montes."
+ },
+ "I500252": {
+  "country": "PT",
+  "why": "Filho do senhor da Casa da Granja de Jou; a filha Maria de Carvalho nasceu em Guiães, Vila Real."
+ },
+ "I500253": {
+  "country": "PT",
+  "why": "A filha Maria de Carvalho nasceu em Guiães, Vila Real; família de Trás-os-Montes."
+ },
+ "I500254": {
+  "country": "PT",
+  "why": "Senhor da Casa da Granja de Jou (Murça); neta nascida em Guiães, Vila Real."
+ },
+ "I500255": {
+  "country": "PT",
+  "why": "Mulher do senhor da Casa da Granja de Jou (Murça); neta nascida em Guiães, Vila Real."
+ },
+ "I500256": {
+  "country": "PT",
+  "why": "Pai do vedor-geral José de Oliveira da Costa, de família de Chaves (Trás-os-Montes)."
+ },
+ "I500257": {
+  "country": "PT",
+  "why": "Mãe do vedor-geral José de Oliveira da Costa, de família de Chaves (Trás-os-Montes)."
+ },
+ "I500258": {
+  "country": "PT",
+  "why": "Família Veloso de Chaves (Felgueiras Gaio); avós nascidos em Chaves."
+ },
+ "I500259": {
+  "country": "PT",
+  "why": "Família Veloso/Araújo de Chaves (Felgueiras Gaio); avó nascida em Chaves."
+ },
+ "I500260": {
+  "country": "PT",
+  "why": "Filho de Duarte Ferreira de Morais, senhor do morgado de Tuizelo (Vinhais); família fidalga de Trás-os-Montes."
+ },
+ "I500261": {
+  "country": "PT",
+  "why": "Família Veloso da região de Chaves (a mãe, Brites de Araújo, nasceu em Chaves)."
+ },
+ "I500262": {
+  "country": "PT",
+  "why": "Família Veloso da região de Chaves; descendência em Trás-os-Montes."
+ },
+ "I500263": {
+  "country": "PT",
+  "why": "Casada com Jerónimo Álvares Veloso, de família de Chaves; descendência em Trás-os-Montes."
+ },
+ "I500297": {
+  "country": null,
+  "why": "Sobrenome de imigrantes alemães, nascida em 1864; casou com colono nascido no RS, mas não se sabe se nasceu no Brasil ou na Alemanha."
+ },
+ "I500300": {
+  "country": "BR",
+  "why": "Pai nascido em Dois Irmãos (RS) e irmãos nascidos no Rio Grande do Sul; colónia alemã já na segunda geração brasileira."
+ },
+ "I500307": {
+  "country": "ES",
+  "why": "Fontes o dizem \"natural das Astúrias\" (ou Galiza; Torre do Pico Sacro); lugar exato disputado"
+ },
+ "I500308": {
+  "country": "PT",
+  "why": "Mulher de João de Fontoura, morador em Chaves; família Nogueira de Chaves (Gaio)."
+ },
+ "I500309": {
+  "country": "ES",
+  "why": "Primeiro conhecido da família Fontoura, oriunda de Carreão nas Astúrias via Puebla de Sanabria; o filho João é dado como natural das Astúrias."
+ },
+ "I500310": {
+  "country": null,
+  "why": "Casou em Chaves, mas o filho é dado como natural das Astúrias e Araújo é apelido também galego; Portugal ou Espanha."
+ },
+ "I500311": {
+  "country": "PT",
+  "why": "Da família Carneiro do Porto; serviu a Casa de Bragança e viveu em Chaves (Gaio)."
+ },
+ "I500312": {
+  "country": "PT",
+  "why": "Filha de Pedro de Fontoura, morador em Chaves; casou no Porto e viveu em Chaves."
+ },
+ "I500313": {
+  "country": "PT",
+  "why": "Filho de Gil Carneiro, criado da Duquesa de Bragança; viveu e casou no Porto no tempo de D. Afonso V a D. Manuel."
+ },
+ "I500314": {
+  "country": "PT",
+  "why": "Filha de Lopo Vieira, Senhor da Casa da Conca, e Brites Álvares da Maia; tinha bens em Gaia e dotou missas no Porto."
+ },
+ "I500339": {
+  "country": null,
+  "why": "Mulher do médico converso Nicolau Coronel, de Segóvia; pode ter nascido em Castela ou em Portugal, e o nome e a data variam entre as fontes."
+ },
+ "I500340": {
+  "country": "PT",
+  "why": "Dito 'de Vila Real' e pai de filhos nascidos em Vila Real; a 'Malagueta' do Mitoblogos parece título ou erro, não naturalidade segura."
+ },
+ "I500341": {
+  "country": "PT",
+  "why": "Filha de Manuel Drago e Filipa de Macedo, da torre de Quintela em Vilar de Maçada; casou com Gonçalo Taveira de Vila Real."
+ },
+ "I500344": {
+  "country": null,
+  "why": "Pais de João Gonçalves \"Francês\", moradores em Bordeaux; o \"nats. da França\" de 1953 parece vir do apelido do filho, e os nomes são portugueses (Bordeaux tinha grande comunidade portuguesa)."
+ },
+ "I500345": {
+  "country": null,
+  "why": "Pais de João Gonçalves \"Francês\", moradores em Bordeaux; o \"nats. da França\" de 1953 parece vir do apelido do filho, e os nomes são portugueses (Bordeaux tinha grande comunidade portuguesa)."
+ },
+ "I500346": {
+  "country": "BR",
+  "why": "Fontes dizem que ele e a mulher eram \"da mesma vila de São Francisco\" (do Sul), onde a filha nasceu."
+ },
+ "I500347": {
+  "country": "BR",
+  "why": "Dos Lamim, primeiros povoadores de São Francisco do Sul; \"da mesma vila de São Francisco\" (Ferraz 1980)."
+ },
+ "I500357": {
+  "country": "PT",
+  "why": "Filho nascido na Ilha Graciosa (Açores) em 1745; família açoriana."
+ },
+ "I500358": {
+  "country": "PT",
+  "why": "Filho nascido na Ilha Graciosa (Açores) em 1745; família açoriana."
+ },
+ "I500359": {
+  "country": null,
+  "why": "Filha nascida em Desterro c. 1751, logo após a chegada dos casais açorianos; pode ser açoriano ou da terra."
+ },
+ "I500360": {
+  "country": null,
+  "why": "Filha nascida em Desterro c. 1751, logo após a chegada dos casais açorianos; pode ser açoriana ou da terra."
+ },
+ "I500361": {
+  "country": "PT",
+  "why": "Filho nascido na Agualva, Ilha Terceira (Açores), em 1739."
+ },
+ "I500362": {
+  "country": "PT",
+  "why": "Filho nascido na Agualva, Ilha Terceira (Açores), em 1739."
+ },
+ "I500363": {
+  "country": "DE",
+  "why": "Filha nascida em 1789 em Ober-Breidenbach (Hessen), antes da emigração da família para o Brasil."
+ },
+ "I500447": {
+  "country": "PT",
+  "why": "Pai de Gabriel da Costa, natural de Torres Novas (Portugal)."
+ },
+ "I500448": {
+  "country": "PT",
+  "why": "Pai de Mariana de Souza, natural de Torres Novas (Portugal)."
+ },
+ "I500500": {
+  "country": "BR",
+  "why": "Os batismos dos netos dizem que os avós paternos eram \"de Rio Pardo\", e o filho era natural de Rio Pardo."
+ },
+ "I500501": {
+  "country": "BR",
+  "why": "O batismo do neto (1856) diz 'Rita Maria, de Rio Pardo', e o filho era natural de Rio Pardo."
+ },
+ "I500621": {
+  "country": "CH",
+  "why": "Mulher de Joseph-Emmanuel-Eloy Gachet, cidadão de Gruyères; Zürich (Zurich) é apelido de famílias do cantão de Friburgo. Lugar de nascimento não registado."
+ }
+}

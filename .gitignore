@@ -1,0 +1,31 @@
+# The repository holds the web version (web/index.html) and what is needed to rebuild it:
+# the code (heritage/), the settings (heritage.json), the tree (tree/tree.ged) and the
+# reviewed countries (research/countries/presumed.json). Everything else stays local.
+
+# Antonio's branch: his tree, research, documents and the pre-split combined material.
+/antonio/
+
+# Research working files: saved web pages, findings, briefs, dossiers, e-mail drafts,
+# logs, reports and the local viewer (research/arvore.html, which links to the dossiers).
+/research/*
+!/research/countries/
+/research/countries/*
+!/research/countries/presumed.json
+
+# Tree snapshots taken before each change, and MyHeritage exports.
+/tree/*
+!/tree/tree.ged
+
+# Personal documents (certificates, charts, exports).
+/documents/
+
+# Research helpers: the MyHeritage page saver (and its saved login and captures)
+# and the /research command.
+/tools/
+/.claude/
+
+# Generated and system files.
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
