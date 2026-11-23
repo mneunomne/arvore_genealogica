@@ -140,6 +140,11 @@ Agents only research deceased people; anyone who may be alive (no death recorded
 born less than 110 years ago) is excluded from briefs and searches. The root people are
 never searched for.
 
+The web version (`web/index.html`) shows the root person, their parents and their brothers
+and sisters by name only: no dates, places, notes or sources. The local viewer
+(`research/arvore.html`) keeps them. Note that `tree/tree.ged`, which is in git, still holds
+those details, so keep the repository private or publish only the `web/` folder.
+
 ## Sources worth remembering
 
 - Hemeroteca Digital Brasileira — https://memoria.bn.gov.br/hdb/ — Brazilian newspapers;

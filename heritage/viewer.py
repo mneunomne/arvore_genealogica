@@ -3,8 +3,8 @@
 - research/arvore.html: the local copy, where each researched person links to their dossier;
 - web/index.html: the copy to publish. It links to nothing outside itself except the sources'
   own web addresses, so it works without the research files, which are not in git.
-  For privacy it carries only the names of the root people and their parents: no dates,
-  places, notes or sources.
+  For privacy it carries only the names of the root people, their parents and their brothers
+  and sisters: no dates, places, notes or sources.
 """
 import json
 import os
@@ -211,11 +211,15 @@ def kinship_pt(ga, gb):
 
 
 def _private(tree, roots):
-    """People whose personal details stay out of the web copy: each root person and their parents."""
+    """People whose personal details stay out of the web copy: each root person, their parents
+    and their brothers and sisters."""
     ids = set()
     for r in roots:
         ids.add(r['id'])
-        ids.update(p for p in tree.parents(r['id']) if p)
+        for p in tree.parents(r['id']):
+            if p:
+                ids.add(p)
+                ids.update(tree.children(p))
     return ids
 
 
@@ -465,7 +469,7 @@ let dens = 'det', W, H, GX, GY, GC;
 // and stops growing at CAP times its normal size. Text that no longer fits is dropped a line at a time
 // (dates, then years and place), down to the name alone; names are shortened to the width left.
 const CAP = 1.3;                 // largest text, as a multiple of the normal size
-const TOL = 0.86;                // a line is kept while the text need not shrink below this share of its ideal size
+const TOL = 0.82;                // a line is kept while the text need not shrink below this share of its ideal size
 const NEED = [0, 17, 30, 42.5];  // height of 1, 2 and 3 lines of card text, in px at normal size
 const STEPS = 8;                 // the text is refitted 8 times per halving of the zoom
 const tscale = k => Math.min(Math.sqrt(k), CAP) / k;  // ideal text scale inside the zoomed drawing
@@ -484,16 +488,23 @@ const width = (s, font) => { ctx.font = font; return ctx.measureText(s).width; }
 const fits = (s, font, w) => width(s, font) <= w;
 const clip = (s, font, w) => { if (fits(s, font, w)) return s; while (s.length > 1 && !fits(s + '…', font, w)) s = s.slice(0, -1); return s + '…'; };
 const PART = new Set(['da', 'de', 'do', 'das', 'dos', 'e', 'di', 'van', 'von', 'der', 'du', 'la', 'le', 'y']);
-function shortName(n, w) {
+const SUF = new Set(['filho', 'filha', 'neto', 'neta', 'júnior', 'junior', 'sobrinho']);
+function shortName(n, w) {  // the name cut to a width: the surname is the last thing to go
   if (fits(n, F_NAME, w)) return n;
   const t = n.split(/\s+/), ab = t.map(() => false);
+  let e = t.length - 1; if (e > 0 && SUF.has(t[e].toLowerCase())) e--;  // t[e] is the surname; "Filho" and the like follow it
   const build = () => t.filter((x, i) => !(PART.has(x.toLowerCase()) && ab[i + 1])).join(' ');
-  for (let i = t.length - 2; i >= 1; i--) {
+  for (let i = e - 1; i >= 1; i--) {  // middle names become initials, from the right: "Joaquim P. Salgado Filho"
     if (PART.has(t[i].toLowerCase())) continue;
     t[i] = t[i][0] + '.'; ab[i] = true;
     const s = build(); if (fits(s, F_NAME, w)) return s;
   }
-  return clip(build(), F_NAME, w);
+  if (e > 0) {  // then "Joaquim Salgado Filho", "J. P. Salgado Filho", "J. Salgado Filho", "Joaquim Salgado", "J. Salgado"
+    const f = t[0][0] + '.', sur = (e > 1 && PART.has(t[e - 1].toLowerCase()) ? t[e - 1] + ' ' : '') + t[e], suf = t.slice(e + 1).join(' ');
+    const mid = t.slice(1, e).filter(x => !PART.has(x.toLowerCase()));
+    for (const c of [[t[0], sur, suf], [f, ...mid, sur, suf], [f, sur, suf], [t[0], sur], [f, sur], [f, t[e]]]) { const s = c.filter(Boolean).join(' '); if (fits(s, F_NAME, w)) return s; }
+  }
+  return clip(t[e], F_NAME, w);  // and at last the surname alone
 }
 function sub(p, w) {  // compact card: years and, if it fits, the birthplace
   let s = p.yy;
@@ -559,7 +570,9 @@ function elbow(x1, y1, x2, y2) {
   return r < 1 ? `M${x1},${y1}L${x2},${y2}` : `M${x1},${y1}H${mx - r}Q${mx},${y1} ${mx},${y1 + s * r}V${y2 - s * r}Q${mx},${y2} ${mx + r},${y2}H${x2}`;
 }
 function card(p, c, L, s) {  // [left, right] text of a card showing L lines at text scale s; drawn in px, the card being W / s wide
-  const w = W / s, nameW = w - PAD - (c ? 24 : 6);
+  const w = W / s;
+  if (w < 120) c = null;  // far out, the flag gives its place to the name; the card keeps the country's tint
+  const nameW = w - PAD - (c ? 24 : 6);
   let a = `<text class="nm" x="${PAD}" y="12.5">${esc(shortName(p.n, nameW))}</text>`;
   let b = c ? `<text class="country-flag${p.co.pr ? ' pr' : ''}" x="-21" y="13.5" role="img" aria-label="${esc(countryLabel(p))}"><title>${esc(countryLabel(p))}</title>${c.flag}</text>` : '';
   if (L === 2) a += `<text class="dt" x="${PAD}" y="25">${esc(sub(p, w - PAD - 6))}</text>`;
@@ -685,7 +698,7 @@ function moveTo(v, ms = 280) {
 const room = () => ({vw: chart.clientWidth, vh: chart.clientHeight - TOP - (narrow() ? 8 : BOT)});
 function initView(ms = 0) {
   const {vw, vh} = room();
-  const k = Math.max(narrow() ? 0.7 : 0.5, Math.min(1.1, (vw - 32) / ext.w, (vh - 16) / ext.h));
+  const k = Math.max(narrow() ? 0.8 : 0.7, Math.min(1.1, (vw - 32) / ext.w, (vh - 16) / ext.h));  // 0.7: the cards still show all their lines
   const f = N.get('r');
   moveTo({k, x: ext.w * k < vw ? (vw - ext.w * k) / 2 : 14,
           y: TOP + (ext.h * k < vh ? (vh - ext.h * k) / 2 : vh / 2 - (f.y + H / 2) * k)}, ms);
